@@ -1,0 +1,52 @@
+# Credentials, keystores and signing keys — never commit
+Secrets/**
+!Secrets/README.md
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# Installed toolchains (large, machine-specific, reinstallable)
+Android-SDK/
+Android-AVD/
+Android-CLI/
+Gradle/
+
+# Freebuff Desktop project marker
+.freebuff/
+
+# Scratch, downloads, logs
+Temp/**
+Cache/**
+Cache/Downloads/**
+Logs/**
+!Logs/README.md
+
+# Release artifacts and ledger copies
+Factory/Development/**
+!Factory/Development/README.md
+Transport/Queue/**
+!Transport/Queue/README.md
+Transport/Uploaded/**
+!Transport/Uploaded/README.md
+Transport/Database/*.sqlite3*
+
+# Backups: keep the folder README, ignore its contents
+Backups/*
+!Backups/README.md
+
+# Shared helper binaries
+Tools/*.jar
+Tools/*.zip
+
+# Control Center
+Control-Center/node_modules/
+Control-Center/dist/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Artifact safety net
+*.apk
+*.aab

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "name": "SMKD",
+      "displayName": "Stock Market Ka Don",
+      "projectPath": "C:\\CODES\\money\\mm"
+    },
+    {
+      "name": "The-Social-Base",
+      "displayName": "The Social Base",
+      "projectPath": "C:\\CODES\\001\\UNFOLLOWER"
+    },
+    {
+      "name": "Dishant-CV",
+      "displayName": "Dishant CV Studio",
+      "projectPath": "C:\\CODES\\DISHANTcv"
+    }
+  ]
+}
