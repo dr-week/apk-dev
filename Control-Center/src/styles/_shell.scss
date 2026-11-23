@@ -1,0 +1,22 @@
+#app { min-height: 100vh; background: radial-gradient(ellipse at 72% -10%, rgba(117,72,137,.13), transparent 42%), var(--canvas); }
+.shell { min-height: 100vh; display: grid; grid-template-columns: 238px minmax(0,1fr); }
+.sidebar { position: fixed; inset: 0 auto 0 0; width: 238px; padding: 27px 15px 18px; display: flex; flex-direction: column; background: rgba(17,15,24,.88); border-right: 1px solid var(--line); z-index: 2; }
+.brand { display: flex; align-items: center; gap: 11px; padding: 0 9px 31px; }
+.brand-glyph { width: 34px; height: 34px; display: grid; place-items: center; color: #edc1a2; border: 1px solid rgba(255,197,163,.25); border-radius: 12px; background: linear-gradient(145deg,rgba(240,169,137,.2),rgba(190,145,255,.13)); box-shadow: 0 4px 24px #c7896730; }
+.brand strong { display: block; font-size: 17px; letter-spacing: -.4px; }
+.brand small { display: block; margin-top: 3px; font-size: 8px; letter-spacing: 1.7px; color: #8d8296; }
+.nav-label { margin: 8px 11px 12px; color: #756e7e; font-size: 9px; letter-spacing: 1.5px; font-weight: 700; }
+nav { display: grid; gap: 5px; }
+.nav-item { position: relative; width: 100%; height: 42px; display: flex; align-items: center; gap: 12px; padding: 0 12px; border: 1px solid transparent; border-radius: 11px; color: #aaa3b1; text-align: left; background: transparent; font-size: 12px; transition: 180ms ease; }
+.nav-item:hover { color: #eee7f5; background: rgba(255,255,255,.04); }
+.nav-item.selected { color: #f0defb; border-color: rgba(209,176,255,.13); background: linear-gradient(100deg,rgba(184,135,224,.13),rgba(237,171,151,.055)); box-shadow: inset 2px 0 #d5acff; }
+.nav-item svg { opacity: .86; }
+.sidebar-bottom { margin-top: auto; }
+.health-card { display: flex; align-items: center; gap: 11px; margin: 0 3px 17px; padding: 13px 11px; border: 1px solid var(--line); border-radius: 13px; background: linear-gradient(130deg,rgba(255,255,255,.05),rgba(155,131,183,.04)); }
+.health-card strong,.user-row strong { display: block; font-size: 11px; font-weight: 550; }
+.health-card small,.user-row small { display: block; margin-top: 4px; color: var(--muted); font-size: 9px; }
+.health-dot,.live-dot { width: 7px; height: 7px; flex: 0 0 7px; border-radius: 50%; background: #a7e1bf; box-shadow: 0 0 10px #a7e1bf8c; }
+.user-row { display: flex; gap: 10px; align-items: center; padding: 13px 8px 0; border-top: 1px solid var(--line); }
+.avatar { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 10px; color: #f5d8d0; background: linear-gradient(140deg,#714951,#8d6c8e); font-size: 12px; }
+.user-glyph { margin-left: auto; color: #8e8696; }
+.workspace { grid-column: 2; min-width: 0; padding: 0 44px 60px; }

@@ -1,0 +1,10 @@
+:root { font-family: Inter, "Segoe UI", sans-serif; color: #f3eff8; background: #100e17; font-synthesis: none; text-rendering: optimizeLegibility;
+  --canvas: #100e17; --surface: rgba(255,255,255,.045); --raised: rgba(255,255,255,.065);
+  --line: rgba(255,255,255,.09); --muted: #a29aa9; --faint: #756e7e;
+  --lilac: #d0b5ff; --coral: #ffad91; --mint: #a1dec8; --radius: 17px; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 760px; min-height: 100vh; }
+button, input, select { font: inherit; }
+button { color: inherit; cursor: pointer; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #c5a3ff; outline-offset: 3px; }
+::selection { background: rgba(195,154,255,.35); }

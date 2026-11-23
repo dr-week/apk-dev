@@ -1,0 +1,4 @@
+{
+  "compilerOptions": { "target": "ES2022", "module": "ESNext", "moduleResolution": "Bundler", "strict": true, "skipLibCheck": true, "noEmit": true, "resolveJsonModule": true, "lib": ["ES2022", "DOM", "DOM.Iterable"], "baseUrl": ".", "paths": { "@zuari/signals": ["C:/CODES/webframework/fast/packages/signals/src/index.ts"], "@zuari/dom": ["C:/CODES/webframework/fast/packages/dom/src/index.ts"], "@zuari/glyphs": ["C:/CODES/webframework/fast/packages/glyphs/src/index.ts"] } },
+  "include": ["src", "vite.config.ts"]
+}
